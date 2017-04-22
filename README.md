@@ -1,4 +1,4 @@
-## Teste Jasmine Aplicação Feedreader
+## BDD Jasmine - Aplicativo Feedreader
 Esse projeto faz parte da formação Nanodegree Frontend da Udacity, onde o objetivo é testar as funcionalidades de um aplicativo de feed, usando o framework de teste Jasmine.
 
 ### Instruções
