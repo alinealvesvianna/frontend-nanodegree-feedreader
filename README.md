@@ -3,7 +3,7 @@ Esse projeto faz parte da formação Nanodegree Frontend da Udacity, onde o obje
 
 ### Instruções
 
-1. Abra a página Index.html.
+1. Clone o repositório para sua máquina ou abra o [projeto](https://alinealvesvianna.github.io/frontend-nanodegree-feedreader/).
 
 2. Na parte inferior da página, o resultado do teste será exibido, mostrando que o aplicativo passou nos seguintes teste:
 
