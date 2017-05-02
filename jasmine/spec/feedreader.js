@@ -28,7 +28,7 @@ $(function() {
         var body = $('body');
 
         it('O menu está escondido por default', function() {
-            expect(body.hasClass('menu-hidden')).toBeTruthy();
+            expect(body.hasClass('menu-hidden')).toBe(true);
         });
 
 
@@ -36,15 +36,16 @@ $(function() {
             var menuIcon = $('.menu-icon-link');
 
             menuIcon.click();
-            expect(body.hasClass('menu-hidden')).toBeFalsy();
+            expect(body.hasClass('menu-hidden')).toBe(false);
 
             menuIcon.click();
-            expect(body.hasClass('menu-hidden')).toBeTruthy();
+            expect(body.hasClass('menu-hidden')).toBe(true);
         });
     });
 
     describe('Initial Entries', function() {
-
+        //loadFeed() é uma função assíncrona, por isso é necessário usar a callback done do Jasmine
+        //beforeEach() é uma função do Jasmine que executa antes de executar qualquer spec (it) que está dentro do describe.
         beforeEach(function(done) {
             loadFeed(0, done);
         });
